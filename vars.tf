@@ -7,3 +7,5 @@ variable "MIN_SIZE" {}
 variable "eks_version" {
   default = 1.27
 }
+
+variable "kms_arn" {}
